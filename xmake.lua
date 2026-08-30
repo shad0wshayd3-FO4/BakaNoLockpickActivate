@@ -30,6 +30,3 @@ target("BakaNoLockpickActivate")
 
     -- add extra files
     add_extrafiles(".clang-format")
-
-    -- add install files
-    add_installfiles("res/MCM/**.*", { prefixdir = "MCM/config/BakaNoLockpickActivate" })
